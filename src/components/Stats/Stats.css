@@ -1,0 +1,42 @@
+/* src/components/Stats/Stats.css */
+.stats-section {
+  padding: 4rem 2rem;
+  background-color: #464797;
+  color: white;
+  text-align: center;
+}
+
+.stats-section h2 {
+  font-size: 2rem;
+  margin-bottom: 0.5rem;
+}
+
+.stats-section h3 {
+  font-size: 1.2rem;
+  font-weight: 300;
+  margin-bottom: 3rem;
+}
+
+.stats-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 2rem;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.stat-item {
+  padding: 1.5rem;
+}
+
+.stat-value {
+  font-size: 2.5rem;
+  font-weight: 700;
+  margin-bottom: 0.5rem;
+  color: #F89B1C;
+}
+
+.stat-label {
+  font-size: 1.1rem;
+  opacity: 0.9;
+}
