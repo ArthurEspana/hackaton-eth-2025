@@ -1,6 +1,6 @@
 // src/pages/Home/Home.tsx
-import Features from '../../components/Features/Features';
-import Stats from '../../../components/Causes
+import Features from '~~/components/Features/Features';
+import Stats from '../../../../components/Stats/Stats';
 import Link from 'next/link';
 import './Home.css';
 
